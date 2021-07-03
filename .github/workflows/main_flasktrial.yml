@@ -20,7 +20,7 @@ jobs:
     - name: Set up Python version
       uses: actions/setup-python@v1
       with:
-        python-version: '3.9'
+        python-version: '3.7'
 
     - name: Create and start virtual environment
       run: |
@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'flasktrial'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_63beb96d83ef43c5a8cf37ed96cbb67d }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_bc303b3b5e744873a22d2dbd8bf4b8b4 }}
